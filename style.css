@@ -112,8 +112,6 @@ body {
   border-bottom: solid black 2px;
 }
 
-
-
 .icons__s2__item {
   display: flex;
   gap: 6px;
@@ -780,14 +778,14 @@ body {
     scrollbar-width: none;
   }
 
-  .icons__s1{
+  .icons__s1 {
     font-size: 10px;
     margin: 2px;
     gap: 2px;
     padding: 5px;
   }
 
-  .icons__s2__item{
+  .icons__s2__item {
     gap: 2px;
   }
 
@@ -821,53 +819,92 @@ body {
     margin-right: 10px;
   }
 
-  .search__s1{
+  .search__s1 {
     width: 300px;
     font-size: 14px;
   }
 
-  .search__s1 input{
+  .search__s1 input {
     font-size: 14px;
   }
 
-  .search__s2{
+  .search__s2 {
     padding: 10px 15px;
     font-size: 14px;
   }
 
-  .sale-image{
+  .sale-image {
     margin-top: 30px;
   }
 
   .sale-image img {
-     height: 200px;
+    height: 200px;
   }
 
-  .sale-image__title h1{
+  .sale-image__title h1 {
     font-size: 14px;
   }
 
-  .sale-image__title p{
+  .sale-image__title p {
     font-size: 12px;
     margin-top: 2px;
   }
 
-  .sale-image__title button{
+  .sale-image__title button {
     font-size: 12px;
     padding: 8px 12px;
     margin-top: 10px;
   }
 
-  .sale-image__title{
+  .sale-image__title {
     bottom: 28px;
     left: 12px;
   }
 
-  .asides{
-     flex-wrap: nowrap;
-     overflow-x: auto;
-     scrollbar-width: none;
+  .asides {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .cast-image {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .travel-image {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .ways-image {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .explore {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .trip-image {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .destination {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
   }
 
 
 
+
+  
+}
