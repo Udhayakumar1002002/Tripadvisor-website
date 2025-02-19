@@ -108,12 +108,11 @@ body {
   gap: 6px;
   margin: 5px;
   font-size: 18px;
-}
-
-.icons__s1 {
   padding: 10px;
   border-bottom: solid black 2px;
 }
+
+
 
 .icons__s2__item {
   display: flex;
@@ -762,10 +761,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .navbar__logon img {
-    width: 120px;
+    width: 130px;
   }
 
   .title {
@@ -777,6 +779,29 @@ body {
     overflow-x: auto;
     scrollbar-width: none;
   }
+
+  .icons__s1{
+    font-size: 10px;
+    margin: 2px;
+    gap: 2px;
+    padding: 5px;
+  }
+
+  .icons__s2__item{
+    gap: 2px;
+  }
+
+  .icons__s2__bar1,
+  .icons__s2__bar2,
+  .icons__s2__bar3,
+  .icons__s2__bar4,
+  .icons__s2__bar5 {
+    font-size: 10px;
+    gap: 2px;
+    margin: 2px;
+    padding: 5px;
+  }
+
   .icons,
   .sale-image,
   .trendcast,
@@ -795,4 +820,54 @@ body {
     margin-left: 10px;
     margin-right: 10px;
   }
-}
+
+  .search__s1{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .search__s1 input{
+    font-size: 14px;
+  }
+
+  .search__s2{
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .sale-image{
+    margin-top: 30px;
+  }
+
+  .sale-image img {
+     height: 200px;
+  }
+
+  .sale-image__title h1{
+    font-size: 14px;
+  }
+
+  .sale-image__title p{
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .sale-image__title button{
+    font-size: 12px;
+    padding: 8px 12px;
+    margin-top: 10px;
+  }
+
+  .sale-image__title{
+    bottom: 28px;
+    left: 12px;
+  }
+
+  .asides{
+     flex-wrap: nowrap;
+     overflow-x: auto;
+     scrollbar-width: none;
+  }
+
+
+
