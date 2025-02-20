@@ -772,11 +772,6 @@ body {
     display: none;
   }
 
-  .icons {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
 
   .icons__s1 {
     font-size: 10px;
@@ -903,8 +898,77 @@ body {
     scrollbar-width: none;
   }
 
+  .lab-section1 img{
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  .lab-section2{
+    text-align: start;
+    display: block;
+    margin: 25px;
+  }
+
+  .lab-section__desc h1{
+    font-size: 25px;
+  }
+
+  .lab-section__desc p{
+    font-size: 17px;
+  }
+
+  .lab{
+    display: block;
+  }
+
+  .lab-section__logo{
+    justify-content: start;
+  }
+
+  .lab-section__btn button{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .lab-section__desc {
+    margin-top: 10px;
+  }
+
+  .winner{
+    display: block;
+    margin: 10px;
+  }
+
+  .winner__desc2 img{
+    width: 400px;
+    height: 300px;
+  }
+
+  .winner__desc1 img{
+    width: 50px;
+    margin-top: 20px;
+  }
+
+  .winner__desc1{
+    margin: 20px;
+  }
+
+  .winner__desc1 h1{
+    font-size: 40px;
+  }
+
+  .winner__desc1 p{
+    font-size: 20px;
+  }
 
 
 
-  
+
+
+
+
+
+
+
+
 }
