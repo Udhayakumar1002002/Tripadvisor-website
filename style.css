@@ -773,6 +773,7 @@ body {
   }
 
 
+
   .icons__s1 {
     font-size: 10px;
     margin: 2px;
@@ -899,7 +900,7 @@ body {
   }
 
   .lab-section1 img{
-    width: 380px;
+    width: 100%;
     margin-top: 20px;
   }
 
