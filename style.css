@@ -869,28 +869,6 @@ body {
     display: none;
   }
 
-  .icons__s1 {
-    font-size: 10px;
-    margin: 2px;
-    gap: 2px;
-    padding: 5px;
-  }
-
-  .icons_s2_item {
-    gap: 1px;
-  }
-
-  .icons_s2_bar1,
-  .icons_s2_bar2,
-  .icons_s2_bar3,
-  .icons_s2_bar4,
-  .icons_s2_bar5 {
-    font-size: 10px;
-    gap: 2px;
-    margin: 2px;
-    padding: 5px;
-  }
-
   .icons,
   .sale-image,
   .trendcast,
