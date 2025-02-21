@@ -744,7 +744,6 @@ body {
   height: 450px;
 }
 
-
 /* footer section */
 
 .footer {
@@ -870,9 +869,27 @@ body {
     display: none;
   }
 
+  .icons__s1 {
+    font-size: 10px;
+    margin: 2px;
+    gap: 2px;
+    padding: 5px;
+  }
 
+  .icons_s2_item {
+    gap: 0px;
+  }
 
-
+  .icons_s2_bar1,
+  .icons_s2_bar2,
+  .icons_s2_bar3,
+  .icons_s2_bar4,
+  .icons_s2_bar5 {
+    font-size: 10px;
+    gap: 2px;
+    margin: 2px;
+    padding: 5px;
+  }
 
   .icons,
   .sale-image,
@@ -977,40 +994,34 @@ body {
     scrollbar-width: none;
   }
 
-  .icons{
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .lab-section1 img{
+  .lab-section1 img {
     width: 100%;
     margin-top: 20px;
   }
 
-  .lab-section2{
+  .lab-section2 {
     text-align: start;
     display: block;
     margin: 25px;
   }
 
-  .lab-section__desc h1{
+  .lab-section__desc h1 {
     font-size: 25px;
   }
 
-  .lab-section__desc p{
+  .lab-section__desc p {
     font-size: 17px;
   }
 
-  .lab{
+  .lab {
     display: block;
   }
 
-  .lab-section__logo{
+  .lab-section__logo {
     justify-content: start;
   }
 
-  .lab-section__btn button{
+  .lab-section__btn button {
     font-size: 16px;
     margin-bottom: 20px;
   }
@@ -1019,30 +1030,30 @@ body {
     margin-top: 10px;
   }
 
-  .winner{
+  .winner {
     display: block;
     margin: 10px;
   }
 
-  .winner__desc2 img{
+  .winner__desc2 img {
     width: 400px;
     height: 300px;
   }
 
-  .winner__desc1 img{
+  .winner__desc1 img {
     width: 50px;
     margin-top: 20px;
   }
 
-  .winner__desc1{
+  .winner__desc1 {
     margin: 20px;
   }
 
-  .winner__desc1 h1{
+  .winner__desc1 h1 {
     font-size: 40px;
   }
 
-  .winner__desc1 p{
+  .winner__desc1 p {
     font-size: 20px;
   }
 
@@ -1073,15 +1084,4 @@ body {
   .title-section__desc {
     gap: 5px;
   }
-
-
-
-
-
-
-
-
-
-
-
 }
